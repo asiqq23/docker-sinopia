@@ -1,5 +1,5 @@
 FROM node
-MAINTAINER Keyvan Fatehi <keyvanfatehi@gmail.com>
+MAINTAINER Adrian Zawadzki <asiqq23@hotmail.com>
 RUN adduser --disabled-password --gecos "" sinopia
 RUN mkdir -p /opt/sinopia/storage
 WORKDIR /opt/sinopia
